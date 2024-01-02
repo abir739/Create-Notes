@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(65deg, #cf9aff, #95c0ff);
+    color: aliceblue;
+    padding-left: 50%;
+    padding-top: 5%;
+
+}
+.container h1{
+    display: flex;
+    align-items: center;
+}
+.container h1 img{
+    width: 50px;
+}
+.container button{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(45deg,  #6e0dc9, #0b58cc);
+    color: azure;
+    font-size: 26px;
+    border: o;
+    border-radius: 30px;
+    padding: 18px 22px;
+    margin: 30px 0 20px;
+    cursor: pointer;
+}
+.container button img{
+    width: 35px;
+    padding-left: 10px;
+    padding-right: 2px;
+    margin-bottom: 5px;
+}
+.note-box{
+    position: absolute;
+    width: 100%;
+    max-width: 800px;
+    min-height: 300px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px;
+    border: 0;
+    border-radius: 10px;
+}
+.note-box img {
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    cursor: pointer;
+}
+.note-box img:first-child {
+    right: 50px; /* Adjust the right margin for the "edit.png" image */
+}
+.note-box img:last-child {
+    right: 15px;   
+}
